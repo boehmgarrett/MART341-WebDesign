@@ -11,3 +11,5 @@
 + Professors
 
 This website tells you all about [TRIO] (https://www.umt.edu/triosss/)
+
+![Screen of the TRIO logo at the University of Montana.](https://www.umt.edu/triosss/images/triossslogo.jpg)
