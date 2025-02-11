@@ -1,0 +1,2 @@
+One class that I've really enjoyed in high school is high school choir.
+What's special about this class is that it's encouraged me to sing a solo at a concert even though I said that I didn't want to, and it felt nice.
