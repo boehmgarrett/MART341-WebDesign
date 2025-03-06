@@ -1,0 +1,2 @@
+The aspect of my website I'm most proud of is the ability to share my own personal ideas for certain franchises with other people and it's even possible that one day I'll find a way to bring my ideas out into the real world.
+Things are doing great right now I don't think there's anything that needs extra support at the moment.
