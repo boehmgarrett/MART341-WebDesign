@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Library</title>
+    <style>
+        logo{
+            text-align: left;
+            text-decoration: none;
+            color: yellow;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: aqua;
+            display: inline-block;
+        }
+        body{
+            background-color: maroon;
+        }
+        h1, h2, h3{
+            color: blueviolet;
+            text-align: center;
+        }
+
+        .marvel-section{
+            width: 75%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: red;
+        }
+        .disney-section{
+            width: 75%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(0, 255, 149);
+        }
+        .dc-section{
+            width: 75%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(255, 196, 0);
+        }
+
+        .media-section{
+            width: 45%;
+            margin: 0 auto;
+            padding: 20;
+        }
+
+        .audio-section {
+            width: 45%;
+            height: 144px;
+            float: right;
+            margin: 1.66%;
+            padding: 15px; 
+            box-sizing: border-box;
+            text-align: right;
+        }
+        .special-words{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a style="float: right; padding: 10px" href="index.html">Main Page</a>
+        <a style="float: right; padding: 10px" href="story.html">Create a Story</a>
+        <a style="float: right; padding: 10px" href="creations.html">See the Stories</a>
+    </nav>
+    <h1>
+        <a id="logo" href="index.html">Story Library</a>
+    </h1>
+    
+    <h2 style="text-align: center; margin-top: 25px;">Stories and their Franchises</h2>
+    <div class="viewing-section">
+
+        <div class="marvel-section">
+            <h2> Marvel</h2>
+            <img src="images/Marvel.jpg" alt="Iron-Man" style="width: 50%">
+            <p>Spider-Man, Iron-Man, Daredevil, <span class="special-words">and more!</span></p>
+            <a href="stories/Spectacular Spider-Man; The Wild Pack.pdf" target="_blank">Spectacular Spider-Man; The Wild Pack</a>
+        </div>
+
+        <div class="disney-section">
+            <h2> Disney</h2>
+            <img src="images/Disney 2.jpg" alt="Disney Castle" style="width: 50%">
+            <p>Where your <span class="special-words"> dreams come ture.</span></p>
+            <a href="stories/Frozen Nightmares (Before Frozen 2).pdf" target="_blank">Frozen Nightmares (Before Frozen 2)</a>
+        </div>
+
+        <div class="dc-section">
+            <h2> DC</h2>
+            <img src="images/DC Comics.jpg" alt="Batman" style="width: 50%">
+            <p>Batman, Superman, Flash, <span class="special-words">and more amazing thrills!</span></p>
+            <a href="stories/Batman Telltale 3; The Living Nightmare.pdf" target="_blank">Batman Telltale 3; The Living Nightmare</a>
+        </div>
+
+    </div>
+
+    <h1 style="text-align: center;">Story Soundtracks</h1>
+    <div class="media-section">
+        <div class="media-item audio-section"></div>
+        <h3>Final Battle Soundtrack for Spider-Man vs Dragonfly</h3>
+        <audio controls loop>
+            <source src="audio/Mixdown.wav" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; 2025 Story Library * Keep Believing in Yourself</p>
+    </footer>
+</body>
+</html>
