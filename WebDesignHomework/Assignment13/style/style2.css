@@ -1,0 +1,155 @@
+logo{
+    text-align: left;
+    text-decoration: none;
+    color: yellow;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.menu-item{
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 10pt;
+    color: wheat;
+    background-color: darkred;
+    line-height: 2.1em;
+}
+
+.display-inline{
+    display: inline;
+}
+
+.menu-item:hover{
+    color: red;
+}
+
+body{
+    background-color: rgb(0, 59, 18);
+}
+h1, h2, h3{
+    color: blueviolet;
+    text-align: center;
+}
+
+.marvel-section{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+}
+.disney-section{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(0, 255, 149);
+}
+.dc-section{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 196, 0);
+}
+
+.media-section{
+    width: 45%;
+    margin: 0 auto;
+    padding: 20;
+}
+
+.audio-section {
+    width: 45%;
+    height: 144px;
+    float: right;
+    margin: 1.66%;
+    padding: 15px; 
+    box-sizing: border-box;
+    text-align: right;
+}
+.special-words{
+    font-weight: bold;
+}
+
+.container-01 {
+    background-color: rgb(99, 33, 74);
+    max-width: 100px;
+    padding: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.container-012 {
+    background-color: silver;
+    width: 50%;
+    height: 50%;
+    margin: 3%;
+}
+
+.container-02 {
+    background-color: rgb(0, 247, 111);
+    max-width: 650px;
+    padding: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.container-03 {
+    background-color: rgb(75, 0, 41);
+    max-width: 650px;
+    padding: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.padding{
+    padding: 2em;
+}
+
+.ex-box{
+    line-height: 1.5em;
+    background-color: brown;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    border: 1px solid orange;
+    margin: 0;
+    margin-top: 0.5em;
+    color: yellow;
+    background-color: blanchedalmond;
+    z-index: 1;
+}
+
+.dropdown-content2 {
+    color: brown;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-item{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: chocolate;
+    background-color: coral;
+}

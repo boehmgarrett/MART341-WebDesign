@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/style3.css">
+</head>
+<body>
+    <header>
+        <nav>
+    <a style="float: right; padding: 10px" href="index.html">Main Page</a>
+    <a style="float: right; padding: 10px" href="story.html">Create a Story</a>
+    <a style="float: right; padding: 10px" href="creations.html">See the Stories</a>
+    <div class="menu-item dropdown"
+    <a style="float: right; padding: 10px" href="scene designs.html">Scene Designs</a>
+    <div class="dropdown-content">
+    <div class="dropdown-item"><a href="scene.html">Scenes</a></div>
+    <div class="dropdown-item"><a href="sound.html">Sounds</a></div>
+        </nav>
+    </header>
+
+
+    <h1 style="text-align: center;">Lets Make a Story!</h1>
+
+    <img src="images/Make Your Ideas.jpg" alt="A writing pad with a pencil over it" title="Let's get started" width="42%" height="auto">
+    <img src="" width="">
+
+    <h2 style="text-align: left;">What type of franchise will your story be a part of?</h2>
+    <table>
+        <tr>
+          <th scope="col">Franchise Options</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">Disney</th>
+          <td><input type="radio" id="option1"></td>
+        </tr>
+        <tr>
+            <th scope="row">Marvel</th>
+            <td><input type="radio" id="option2"></td>
+        </tr>
+        <tr>
+            <th scope="row">Dreamworks</th>
+            <td><input type="radio" id="option3"></td>
+        </tr>
+
+        <tr>
+            <th scope="row">Jurassic Park/World</th>
+            <td><input type="radio" id="option4"></td>
+        </tr>
+        <tr>
+            <th scope="row">Star Wars</th>
+            <td><input type="radio" id="option5"></td>
+        </tr>
+        <tr>
+            <th scope="row">DC</th>
+            <td><input type="radio" id="option6"></td>
+        </tr>
+    </table>
+    <form action="garrett.boehm@umontana.edu" method="post" enctype="text/plain">
+        <h3 style="text-align: center;">What will be the plot of your story?</h3>
+        <fieldset>
+            <legend>Details and Your Idea</legend>
+            <label>Name:<br />
+                <input type="text" name="name" required />
+            </label>
+                <br />
+            <label>Email:<br />
+                <input type="text" name="email" required />
+            </label>
+                <br />
+            <label>Plot Of Your Story:<br />
+                <textarea name="story" rows="4" cols="50" placeholder="Type story here..." required></textarea> />
+            </label>
+
+
+        </fieldset>
+
+        <br />
+
+        <input type="submit" value="Share Details" />
+    </form>
+
+</body>
+</html>
